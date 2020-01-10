@@ -101,7 +101,7 @@ router.get('/signIn', function(req, res) {
   res.render('signin-pg');
 });
 
-/* POST sign-in page*/
+/* POST sign-in page*/ 
 router.post('/home', function(req, res,next) {
   console.log('good going...');
   passport.authenticate('local', {
